@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <item name="tag_first" type="id"></item>
+
+    <string name="app_name">ChuangBaBaV2</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="yuyue_top">如果您在浏览过程中，没找到符合您装修要求的门窗，您可以向窗爸爸提交您的要求，我们会指派专业的设计师帮您完成订制。</string>
+
+</resources>

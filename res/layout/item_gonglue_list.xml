@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="horizontal"
+    android:padding="10dp" >
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="80dp" >
+        <TextView
+        android:id="@+id/glname"
+        style="@style/text_base"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="0dp"
+        android:text="120" />
+
+    <TextView
+        android:id="@+id/glshuxing"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:padding="0dp"
+        android:text="TextView"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/gltongji"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/glshuxing"
+        android:layout_alignBottom="@+id/glshuxing"
+        android:layout_centerHorizontal="true"
+        android:text="118"
+        android:textColor="@color/black" />
+
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/menchuang_list_pic"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY" />
+
+</LinearLayout>

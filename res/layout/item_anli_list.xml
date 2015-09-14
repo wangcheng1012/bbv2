@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:padding="10dp" >
+
+    <ImageView
+        android:id="@+id/menchuang_list_pic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY" />
+
+
+        <TextView
+            android:id="@+id/name"
+            style="@style/text_base"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="0dp"
+            android:text="120" />
+
+        <TextView
+            android:id="@+id/shuoming"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="0dp"
+            android:textColor="@color/black"
+            android:text="TextView" />
+
+    <TextView
+        android:id="@+id/tongji"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="118"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/tedian"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="da"
+        android:textColor="#D0D0D0" />
+
+</LinearLayout>

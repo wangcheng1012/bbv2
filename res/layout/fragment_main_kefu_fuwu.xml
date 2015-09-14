@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <include layout="@layout/top" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/ic_launcher" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:background="#D6D6D6"
+        android:drawableLeft="@drawable/cursor_s"
+        android:drawablePadding="5dp"
+        android:padding="10dp"
+        android:text="窗爸爸"
+        android:textColor="@color/color_home_cursor" />
+
+    <ListView
+        android:id="@+id/listView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    </ListView>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#D6D6D6"
+        android:drawableLeft="@drawable/cursor_s"
+        android:drawablePadding="5dp"
+        android:padding="10dp"
+        android:text="信任和保障"
+        android:textColor="@color/color_home_cursor" />
+
+    <ListView
+        android:id="@+id/listView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    </ListView>
+
+</LinearLayout>
