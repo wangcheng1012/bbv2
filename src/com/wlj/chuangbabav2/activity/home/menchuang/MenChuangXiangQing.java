@@ -41,7 +41,7 @@ public class MenChuangXiangQing extends BaseFragmentActivity2 {
 
 	@Override
 	protected int setlayout() {
-		return R.layout.fragment_main_home2_mc_xq;
+		return R.layout.home2_mc_xq;
 	}
 
 	@Override

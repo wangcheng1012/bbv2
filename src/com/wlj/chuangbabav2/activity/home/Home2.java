@@ -37,8 +37,8 @@ import com.wlj.chuangbabav2.CBBContext;
 import com.wlj.chuangbabav2.R;
 import com.wlj.chuangbabav2.activity.home.anli.AnLi;
 import com.wlj.chuangbabav2.activity.home.anli.AnLiList;
-import com.wlj.chuangbabav2.activity.home.gongyue.GongLue;
-import com.wlj.chuangbabav2.activity.home.gongyue.GongLueList;
+import com.wlj.chuangbabav2.activity.home.gonglue.GongLue;
+import com.wlj.chuangbabav2.activity.home.gonglue.GongLueList;
 import com.wlj.chuangbabav2.activity.home.menchuang.MenChuang;
 import com.wlj.chuangbabav2.activity.home.menchuang.MenChuangList;
 import com.wlj.chuangbabav2.bean.FenLei;
@@ -62,7 +62,7 @@ public class Home2 extends BaseFragment implements OnPageChangeListener, OnClick
 	
 	@Override
 	protected int getlayout() {
-		return R.layout.fragment_main_home2_mc;
+		return R.layout.home2_mc;
 	}
 
 	@Override
@@ -101,13 +101,13 @@ public class Home2 extends BaseFragment implements OnPageChangeListener, OnClick
 		
 		viewpager.addOnPageChangeListener(this);
 		
-		popupcontext = LayoutInflater.from(mContext).inflate(R.layout.fragment_main_home2_jiahao, null);
+		popupcontext = LayoutInflater.from(mContext).inflate(R.layout.home2_jiahao, null);
 		(popupcontext.findViewById(R.id.menchuangsearch)).setOnClickListener(this);
 		(popupcontext.findViewById(R.id.anlisearch)).setOnClickListener(this);
 		(popupcontext.findViewById(R.id.gongluesearch)).setOnClickListener(this);
 		(popupcontext.findViewById(R.id.erweima)).setOnClickListener(this);
 		
-		SearchPopupContext = LayoutInflater.from(mContext).inflate(R.layout.fragment_main_home2_sousuo, null);
+		SearchPopupContext = LayoutInflater.from(mContext).inflate(R.layout.home2_sousuo, null);
 		listView1 = (ListView)SearchPopupContext.findViewById(R.id.listView1);
 		listView2 = (ListView)SearchPopupContext.findViewById(R.id.listView2);
 		

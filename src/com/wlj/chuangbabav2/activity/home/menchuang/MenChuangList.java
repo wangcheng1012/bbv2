@@ -27,7 +27,7 @@ public class MenChuangList extends BaseFragmentActivity2 implements dataTransmis
 
 	@Override
 	protected int setlayout() {
-		return R.layout.fragment_main_home2_mc_list;
+		return R.layout.home2_mc_list;
 	}
 
 	@Override

@@ -26,7 +26,7 @@ public class MsgContext  {
 	public static final String key_page = "page";
 	public static final String key_pageSize = "pageSize";
 	
-	public static final int pageSize = 5;
+	public static final int pageSize = 6;
 
 	//热门资讯 、公司动态、行业动态
 	public static final String id_hot = "554c8fa8d6c45923169ce936";

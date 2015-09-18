@@ -102,7 +102,7 @@ public class YuYue_No___ extends Fragment implements OnClickListener {
 		}
 		
 		if(state == state_have){
-			view = inflater.inflate(R.layout.fragment_main_yuyue_xiangqing, null);
+			view = inflater.inflate(R.layout.yuyue_xiangqing, null);
 			yuyuContext = (TextView)view.findViewById(R.id.yuyuContext);
 			edityuyue = (Button)view.findViewById(R.id.edityuyue);
 			delyuyue = (Button)view.findViewById(R.id.delyuyue);
@@ -132,7 +132,7 @@ public class YuYue_No___ extends Fragment implements OnClickListener {
 			((TextView)view.findViewById(R.id.title)).setText("快速预约");
 			
 		}else if(state == state_null){
-			view = inflater.inflate(R.layout.fragment_main_yuyue, null);
+			view = inflater.inflate(R.layout.yuyue, null);
 			name = (EditText)view.findViewById(R.id.name);
 			phone = (EditText)view.findViewById(R.id.phone);
 			shuoming = (EditText)view.findViewById(R.id.shuoming);

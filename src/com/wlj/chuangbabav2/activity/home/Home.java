@@ -69,7 +69,7 @@ public class Home extends BaseFragment implements OnClickListener {
 
 	@Override
 	protected int getlayout() {
-		return R.layout.fragment_main_home;
+		return R.layout.home;
 	}
 	
 	@Override

@@ -27,7 +27,7 @@ public class AnLiList extends BaseFragmentActivity2 implements dataTransmission{
 
 	@Override
 	protected int setlayout() {
-		return R.layout.fragment_main_home2_al_list;
+		return R.layout.home2_al_list;
 	}
 
 	@Override

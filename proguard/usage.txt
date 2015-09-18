@@ -3858,9 +3858,9 @@ com.wlj.chuangbabav2.bean.User:
     private static final long serialVersionUID
     public static final java.lang.String type_dailishang
     public static final java.lang.String type_huiyuan
-    private java.lang.String phone
-    46:46:public java.lang.String getPhone()
-    50:51:public void setPhone(java.lang.String)
+    35:35:public java.lang.String getPic()
+    43:43:public long getRegtime()
+    79:80:public void setPhone(java.lang.String)
 com.wlj.chuangbabav2.bean.YuYue:
     private static final long serialVersionUID
     public static final int state_ing
@@ -4071,9 +4071,9 @@ com.wlj.util.img.ImageFileCache:
     private static final long mTimeDiff
     private static final int FREE_SD_SPACE_NEEDED_TO_CACHE
     private static final int CACHE_SIZE
-    43:44:public java.lang.String getPath(java.lang.String)
-    214:223:public boolean removeBitmap(java.lang.String)
-    264:274:public void removeExpiredCache(java.lang.String,java.lang.String)
+    45:46:public java.lang.String getPath(java.lang.String)
+    216:225:public boolean removeBitmap(java.lang.String)
+    266:276:public void removeExpiredCache(java.lang.String,java.lang.String)
 com.wlj.util.img.ImageGetForHttp:
     private static final java.lang.String LOG_TAG
     22:22:public ImageGetForHttp()

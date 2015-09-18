@@ -8127,6 +8127,9 @@ com.wlj.chuangbabav2.activity.Main -> com.wlj.chuangbabav2.activity.Main:
     void initView() -> g
     android.view.View getTabItemView(int) -> a
     void onActivityResult(int,int,android.content.Intent) -> onActivityResult
+com.wlj.chuangbabav2.activity.Main$1 -> com.wlj.chuangbabav2.activity.e:
+    com.wlj.chuangbabav2.activity.Main this$0 -> a
+    void onClick(android.view.View) -> onClick
 com.wlj.chuangbabav2.activity.PSWLogin -> com.wlj.chuangbabav2.activity.PSWLogin:
     android.widget.EditText loginName -> n
     android.widget.EditText logonPassword -> o
@@ -8138,18 +8141,18 @@ com.wlj.chuangbabav2.activity.PSWLogin -> com.wlj.chuangbabav2.activity.PSWLogin
     void login(com.wlj.chuangbabav2.bean.User) -> a
     void onBackPressed() -> onBackPressed
     com.wlj.chuangbabav2.CBBContext access$0(com.wlj.chuangbabav2.activity.PSWLogin) -> a
-com.wlj.chuangbabav2.activity.PSWLogin$1 -> com.wlj.chuangbabav2.activity.e:
+com.wlj.chuangbabav2.activity.PSWLogin$1 -> com.wlj.chuangbabav2.activity.f:
     com.wlj.chuangbabav2.activity.PSWLogin this$0 -> a
     com.wlj.chuangbabav2.bean.User val$u -> b
     void run() -> run
     com.wlj.chuangbabav2.activity.PSWLogin access$0(com.wlj.chuangbabav2.activity.PSWLogin$1) -> a
-com.wlj.chuangbabav2.activity.PSWLogin$1$1 -> com.wlj.chuangbabav2.activity.f:
+com.wlj.chuangbabav2.activity.PSWLogin$1$1 -> com.wlj.chuangbabav2.activity.g:
     com.wlj.chuangbabav2.activity.PSWLogin$1 this$1 -> a
     void run() -> run
-com.wlj.chuangbabav2.activity.PSWLogin$1$2 -> com.wlj.chuangbabav2.activity.g:
+com.wlj.chuangbabav2.activity.PSWLogin$1$2 -> com.wlj.chuangbabav2.activity.h:
     com.wlj.chuangbabav2.activity.PSWLogin$1 this$1 -> a
     void run() -> run
-com.wlj.chuangbabav2.activity.PSWLogin$1$3 -> com.wlj.chuangbabav2.activity.h:
+com.wlj.chuangbabav2.activity.PSWLogin$1$3 -> com.wlj.chuangbabav2.activity.i:
     com.wlj.chuangbabav2.activity.PSWLogin$1 this$1 -> a
     void run() -> run
 com.wlj.chuangbabav2.activity.RandCodeLogin -> com.wlj.chuangbabav2.activity.RandCodeLogin:
@@ -8167,21 +8170,21 @@ com.wlj.chuangbabav2.activity.RandCodeLogin -> com.wlj.chuangbabav2.activity.Ran
     android.widget.Button access$0(com.wlj.chuangbabav2.activity.RandCodeLogin) -> a
     com.wlj.chuangbabav2.CBBContext access$1(com.wlj.chuangbabav2.activity.RandCodeLogin) -> b
     android.os.Handler access$2(com.wlj.chuangbabav2.activity.RandCodeLogin) -> c
-com.wlj.chuangbabav2.activity.RandCodeLogin$1 -> com.wlj.chuangbabav2.activity.i:
+com.wlj.chuangbabav2.activity.RandCodeLogin$1 -> com.wlj.chuangbabav2.activity.j:
     com.wlj.chuangbabav2.activity.RandCodeLogin this$0 -> a
     void handleMessage(android.os.Message) -> handleMessage
     com.wlj.chuangbabav2.activity.RandCodeLogin access$0(com.wlj.chuangbabav2.activity.RandCodeLogin$1) -> a
-com.wlj.chuangbabav2.activity.RandCodeLogin$1$1 -> com.wlj.chuangbabav2.activity.j:
+com.wlj.chuangbabav2.activity.RandCodeLogin$1$1 -> com.wlj.chuangbabav2.activity.k:
     com.wlj.chuangbabav2.activity.RandCodeLogin$1 this$1 -> a
     void run() -> run
-com.wlj.chuangbabav2.activity.RandCodeLogin$1$2 -> com.wlj.chuangbabav2.activity.k:
+com.wlj.chuangbabav2.activity.RandCodeLogin$1$2 -> com.wlj.chuangbabav2.activity.l:
     com.wlj.chuangbabav2.activity.RandCodeLogin$1 this$1 -> a
     void run() -> run
-com.wlj.chuangbabav2.activity.RandCodeLogin$2 -> com.wlj.chuangbabav2.activity.l:
+com.wlj.chuangbabav2.activity.RandCodeLogin$2 -> com.wlj.chuangbabav2.activity.m:
     com.wlj.chuangbabav2.activity.RandCodeLogin this$0 -> a
     java.lang.String val$name2 -> b
     void run() -> run
-com.wlj.chuangbabav2.activity.RandCodeLogin$3 -> com.wlj.chuangbabav2.activity.m:
+com.wlj.chuangbabav2.activity.RandCodeLogin$3 -> com.wlj.chuangbabav2.activity.n:
     com.wlj.chuangbabav2.activity.RandCodeLogin this$0 -> a
     com.wlj.chuangbabav2.bean.User val$u -> b
     void run() -> run
@@ -8289,7 +8292,7 @@ com.wlj.chuangbabav2.activity.home.anli.AnLiList_fragment$2 -> com.wlj.chuangbab
     com.wlj.chuangbabav2.activity.home.anli.AnLiList_fragment this$0 -> a
     void onItemClick(android.widget.AdapterView,android.view.View,int,long) -> onItemClick
 com.wlj.chuangbabav2.activity.home.anli.AnLiXiangQing -> com.wlj.chuangbabav2.activity.home.anli.AnLiXiangQing:
-    android.widget.ImageView anli_list_pic -> s
+    android.widget.ImageView anli_list_pic -> n
     android.widget.TextView name -> t
     android.widget.TextView shuoming -> u
     android.widget.TextView tongji -> v
@@ -8311,7 +8314,7 @@ com.wlj.chuangbabav2.activity.home.anli.AnLiXiangQing$1 -> com.wlj.chuangbabav2.
     void onPageFinished(android.webkit.WebView,java.lang.String) -> onPageFinished
 com.wlj.chuangbabav2.activity.home.dataTransmission -> com.wlj.chuangbabav2.activity.home.g:
     android.os.Bundle transmissionName() -> m
-com.wlj.chuangbabav2.activity.home.gongyue.GongLue -> com.wlj.chuangbabav2.activity.home.gongyue.a:
+com.wlj.chuangbabav2.activity.home.gonglue.GongLue -> com.wlj.chuangbabav2.activity.home.gonglue.a:
     android.widget.GridView gridview1 -> ae
     android.widget.ListView listView1 -> af
     java.lang.Integer tuijian_yes -> ab
@@ -8321,26 +8324,26 @@ com.wlj.chuangbabav2.activity.home.gongyue.GongLue -> com.wlj.chuangbabav2.activ
     void setViewDate(java.lang.Object) -> a
     java.lang.Object callWebMethod() -> L
     void callwebList() -> M
-    android.content.Context access$0(com.wlj.chuangbabav2.activity.home.gongyue.GongLue) -> a
-    android.os.Handler access$1(com.wlj.chuangbabav2.activity.home.gongyue.GongLue) -> b
-com.wlj.chuangbabav2.activity.home.gongyue.GongLue$1 -> com.wlj.chuangbabav2.activity.home.gongyue.b:
-    com.wlj.chuangbabav2.activity.home.gongyue.GongLue this$0 -> e
+    android.content.Context access$0(com.wlj.chuangbabav2.activity.home.gonglue.GongLue) -> a
+    android.os.Handler access$1(com.wlj.chuangbabav2.activity.home.gonglue.GongLue) -> b
+com.wlj.chuangbabav2.activity.home.gonglue.GongLue$1 -> com.wlj.chuangbabav2.activity.home.gonglue.b:
+    com.wlj.chuangbabav2.activity.home.gonglue.GongLue this$0 -> e
     android.view.View getListItemview(com.wlj.adapter.ViewHolder,android.view.View,com.wlj.bean.Base,int,android.view.ViewGroup) -> a
     android.view.View getListItemview(com.wlj.adapter.ViewHolder,android.view.View,java.lang.Object,int,android.view.ViewGroup) -> a
-com.wlj.chuangbabav2.activity.home.gongyue.GongLue$2 -> com.wlj.chuangbabav2.activity.home.gongyue.c:
-    com.wlj.chuangbabav2.activity.home.gongyue.GongLue this$0 -> a
+com.wlj.chuangbabav2.activity.home.gonglue.GongLue$2 -> com.wlj.chuangbabav2.activity.home.gonglue.c:
+    com.wlj.chuangbabav2.activity.home.gonglue.GongLue this$0 -> a
     void onItemClick(android.widget.AdapterView,android.view.View,int,long) -> onItemClick
-com.wlj.chuangbabav2.activity.home.gongyue.GongLue$3 -> com.wlj.chuangbabav2.activity.home.gongyue.d:
-    com.wlj.chuangbabav2.activity.home.gongyue.GongLue this$0 -> e
+com.wlj.chuangbabav2.activity.home.gonglue.GongLue$3 -> com.wlj.chuangbabav2.activity.home.gonglue.d:
+    com.wlj.chuangbabav2.activity.home.gonglue.GongLue this$0 -> e
     android.view.View getListItemview(com.wlj.adapter.ViewHolder,android.view.View,com.wlj.bean.Base,int,android.view.ViewGroup) -> a
     android.view.View getListItemview(com.wlj.adapter.ViewHolder,android.view.View,java.lang.Object,int,android.view.ViewGroup) -> a
-com.wlj.chuangbabav2.activity.home.gongyue.GongLue$4 -> com.wlj.chuangbabav2.activity.home.gongyue.e:
-    com.wlj.chuangbabav2.activity.home.gongyue.GongLue this$0 -> a
+com.wlj.chuangbabav2.activity.home.gonglue.GongLue$4 -> com.wlj.chuangbabav2.activity.home.gonglue.e:
+    com.wlj.chuangbabav2.activity.home.gonglue.GongLue this$0 -> a
     void onItemClick(android.widget.AdapterView,android.view.View,int,long) -> onItemClick
-com.wlj.chuangbabav2.activity.home.gongyue.GongLue$5 -> com.wlj.chuangbabav2.activity.home.gongyue.f:
-    com.wlj.chuangbabav2.activity.home.gongyue.GongLue this$0 -> a
+com.wlj.chuangbabav2.activity.home.gonglue.GongLue$5 -> com.wlj.chuangbabav2.activity.home.gonglue.f:
+    com.wlj.chuangbabav2.activity.home.gonglue.GongLue this$0 -> a
     void run() -> run
-com.wlj.chuangbabav2.activity.home.gongyue.GongLueList -> com.wlj.chuangbabav2.activity.home.gongyue.GongLueList:
+com.wlj.chuangbabav2.activity.home.gonglue.GongLueList -> com.wlj.chuangbabav2.activity.home.gonglue.GongLueList:
     void beforeTitle() -> g
     int setlayout() -> h
     void initView() -> i
@@ -8350,24 +8353,23 @@ com.wlj.chuangbabav2.activity.home.gongyue.GongLueList -> com.wlj.chuangbabav2.a
     void liftOnClick() -> k
     java.lang.Object callWebMethod() -> l
     android.os.Bundle transmissionName() -> m
-com.wlj.chuangbabav2.activity.home.gongyue.GongLueList_fragment -> com.wlj.chuangbabav2.activity.home.gongyue.GongLueList_fragment:
+com.wlj.chuangbabav2.activity.home.gonglue.GongLueList_fragment -> com.wlj.chuangbabav2.activity.home.gonglue.GongLueList_fragment:
     com.wlj.chuangbabav2.activity.home.dataTransmission dt -> aj
     void onAttach(android.app.Activity) -> a
     void initCommonAdapter(java.util.List) -> a
     com.wlj.bean.BaseList webMethod(android.content.Context,android.os.Bundle,int,boolean) -> a
-    android.view.View access$0(com.wlj.chuangbabav2.activity.home.gongyue.GongLueList_fragment) -> a
-    android.view.View access$1(com.wlj.chuangbabav2.activity.home.gongyue.GongLueList_fragment) -> b
-    com.wlj.chuangbabav2.activity.home.dataTransmission access$2(com.wlj.chuangbabav2.activity.home.gongyue.GongLueList_fragment) -> c
-com.wlj.chuangbabav2.activity.home.gongyue.GongLueList_fragment$1 -> com.wlj.chuangbabav2.activity.home.gongyue.g:
-    com.wlj.chuangbabav2.activity.home.gongyue.GongLueList_fragment this$0 -> e
+    android.view.View access$0(com.wlj.chuangbabav2.activity.home.gonglue.GongLueList_fragment) -> a
+    com.wlj.chuangbabav2.activity.home.dataTransmission access$1(com.wlj.chuangbabav2.activity.home.gonglue.GongLueList_fragment) -> b
+com.wlj.chuangbabav2.activity.home.gonglue.GongLueList_fragment$1 -> com.wlj.chuangbabav2.activity.home.gonglue.g:
+    com.wlj.chuangbabav2.activity.home.gonglue.GongLueList_fragment this$0 -> e
     android.os.Bundle val$bundle -> f
     android.view.View getListItemview(com.wlj.adapter.ViewHolder,android.view.View,com.wlj.bean.Base,int,android.view.ViewGroup) -> a
     android.view.View getListItemview(com.wlj.adapter.ViewHolder,android.view.View,java.lang.Object,int,android.view.ViewGroup) -> a
-com.wlj.chuangbabav2.activity.home.gongyue.GongLueList_fragment$2 -> com.wlj.chuangbabav2.activity.home.gongyue.h:
-    com.wlj.chuangbabav2.activity.home.gongyue.GongLueList_fragment this$0 -> a
+com.wlj.chuangbabav2.activity.home.gonglue.GongLueList_fragment$2 -> com.wlj.chuangbabav2.activity.home.gonglue.h:
+    com.wlj.chuangbabav2.activity.home.gonglue.GongLueList_fragment this$0 -> a
     void onItemClick(android.widget.AdapterView,android.view.View,int,long) -> onItemClick
-com.wlj.chuangbabav2.activity.home.gongyue.GongLueXiangQing -> com.wlj.chuangbabav2.activity.home.gongyue.GongLueXiangQing:
-    android.widget.ImageView gonglue_list_pic -> s
+com.wlj.chuangbabav2.activity.home.gonglue.GongLueXiangQing -> com.wlj.chuangbabav2.activity.home.gonglue.GongLueXiangQing:
+    android.widget.ImageView gonglue_list_pic -> n
     android.widget.TextView name -> t
     android.widget.TextView shuoming -> u
     android.widget.TextView yudu -> v
@@ -8382,8 +8384,8 @@ com.wlj.chuangbabav2.activity.home.gongyue.GongLueXiangQing -> com.wlj.chuangbab
     void liftOnClick() -> k
     java.lang.Object callWebMethod() -> l
     java.lang.String getHtmlData(java.lang.String) -> b
-com.wlj.chuangbabav2.activity.home.gongyue.GongLueXiangQing$1 -> com.wlj.chuangbabav2.activity.home.gongyue.i:
-    com.wlj.chuangbabav2.activity.home.gongyue.GongLueXiangQing this$0 -> a
+com.wlj.chuangbabav2.activity.home.gonglue.GongLueXiangQing$1 -> com.wlj.chuangbabav2.activity.home.gonglue.i:
+    com.wlj.chuangbabav2.activity.home.gonglue.GongLueXiangQing this$0 -> a
     void onLoadResource(android.webkit.WebView,java.lang.String) -> onLoadResource
     void onPageStarted(android.webkit.WebView,java.lang.String,android.graphics.Bitmap) -> onPageStarted
     boolean shouldOverrideUrlLoading(android.webkit.WebView,java.lang.String) -> shouldOverrideUrlLoading
@@ -8435,7 +8437,7 @@ com.wlj.chuangbabav2.activity.home.menchuang.MenChuangList_fragment$2 -> com.wlj
     com.wlj.chuangbabav2.activity.home.menchuang.MenChuangList_fragment this$0 -> a
     void onItemClick(android.widget.AdapterView,android.view.View,int,long) -> onItemClick
 com.wlj.chuangbabav2.activity.home.menchuang.MenChuangXiangQing -> com.wlj.chuangbabav2.activity.home.menchuang.MenChuangXiangQing:
-    android.widget.TextView name1 -> s
+    android.widget.TextView name1 -> n
     android.widget.TextView dingzhi -> t
     android.widget.TextView soucang -> u
     android.widget.TextView liulan -> v
@@ -8464,13 +8466,136 @@ com.wlj.chuangbabav2.activity.home.menchuang.MenChuangXiangQing$1 -> com.wlj.chu
     void onPageStarted(android.webkit.WebView,java.lang.String,android.graphics.Bitmap) -> onPageStarted
     boolean shouldOverrideUrlLoading(android.webkit.WebView,java.lang.String) -> shouldOverrideUrlLoading
     void onPageFinished(android.webkit.WebView,java.lang.String) -> onPageFinished
-com.wlj.chuangbabav2.activity.kefu.KeFu -> com.wlj.chuangbabav2.activity.a.a:
+com.wlj.chuangbabav2.activity.kefu.FuWu -> com.wlj.chuangbabav2.activity.kefu.FuWu:
+    android.widget.ImageView fuwubanner -> t
+    android.widget.ListView listView1 -> u
+    android.widget.ListView listView2 -> v
+    com.wlj.chuangbabav2.CBBContext cbbContext -> n
+    void beforeTitle() -> g
+    int setlayout() -> h
+    void initView() -> i
+    void Switch(android.os.Message) -> a
+    void setViewDate(java.lang.Object) -> a
+    void rightOnClick() -> j
+    void liftOnClick() -> k
+    java.lang.Object callWebMethod() -> l
+com.wlj.chuangbabav2.activity.kefu.FuWu$1 -> com.wlj.chuangbabav2.activity.kefu.a:
+    com.wlj.chuangbabav2.activity.kefu.FuWu this$0 -> e
+    android.view.View getListItemview(com.wlj.adapter.ViewHolder,android.view.View,com.wlj.bean.Base,int,android.view.ViewGroup) -> a
+    android.view.View getListItemview(com.wlj.adapter.ViewHolder,android.view.View,java.lang.Object,int,android.view.ViewGroup) -> a
+com.wlj.chuangbabav2.activity.kefu.FuWu$2 -> com.wlj.chuangbabav2.activity.kefu.b:
+    com.wlj.chuangbabav2.activity.kefu.FuWu this$0 -> a
+    void onItemClick(android.widget.AdapterView,android.view.View,int,long) -> onItemClick
+com.wlj.chuangbabav2.activity.kefu.FuWuXiangQing -> com.wlj.chuangbabav2.activity.kefu.FuWuXiangQing:
+    android.widget.TextView name -> n
+    android.webkit.WebView fuwuwebview -> t
+    void beforeTitle() -> g
+    int setlayout() -> h
+    void initView() -> i
+    void Switch(android.os.Message) -> a
+    void setViewDate(java.lang.Object) -> a
+    void rightOnClick() -> j
+    void liftOnClick() -> k
+    java.lang.Object callWebMethod() -> l
+    java.lang.String getHtmlData(java.lang.String) -> b
+com.wlj.chuangbabav2.activity.kefu.FuWuXiangQing$1 -> com.wlj.chuangbabav2.activity.kefu.c:
+    com.wlj.chuangbabav2.activity.kefu.FuWuXiangQing this$0 -> a
+    void onLoadResource(android.webkit.WebView,java.lang.String) -> onLoadResource
+    void onPageStarted(android.webkit.WebView,java.lang.String,android.graphics.Bitmap) -> onPageStarted
+    boolean shouldOverrideUrlLoading(android.webkit.WebView,java.lang.String) -> shouldOverrideUrlLoading
+    void onPageFinished(android.webkit.WebView,java.lang.String) -> onPageFinished
+com.wlj.chuangbabav2.activity.kefu.KeFu -> com.wlj.chuangbabav2.activity.kefu.d:
+    android.view.animation.Animation translate_Animation -> ab
+    android.widget.ImageView kefubanner -> ae
+    java.util.List phonebaselist -> af
+    com.wlj.adapter.CommonAdapter CommonAdapter -> ag
     int getlayout() -> a_
     void initView(android.view.View) -> a
-com.wlj.chuangbabav2.activity.my.My -> com.wlj.chuangbabav2.activity.b.a:
+    void showdialog() -> M
+    void onClick(android.view.View) -> onClick
+    void Switch(android.os.Message) -> a
+    void setViewDate(java.lang.Object) -> a
+    java.lang.Object callWebMethod() -> L
+com.wlj.chuangbabav2.activity.kefu.KeFu$1 -> com.wlj.chuangbabav2.activity.kefu.e:
+    com.wlj.chuangbabav2.activity.kefu.KeFu this$0 -> a
+    android.app.AlertDialog val$dlg -> b
+    void onClick(android.view.View) -> onClick
+com.wlj.chuangbabav2.activity.kefu.KeFu$2 -> com.wlj.chuangbabav2.activity.kefu.f:
+    com.wlj.chuangbabav2.activity.kefu.KeFu this$0 -> a
+    android.app.AlertDialog val$dlg -> b
+    void onClick(android.view.View) -> onClick
+com.wlj.chuangbabav2.activity.kefu.KeFu$3 -> com.wlj.chuangbabav2.activity.kefu.g:
+    com.wlj.chuangbabav2.activity.kefu.KeFu this$0 -> e
+    android.view.View getListItemview(com.wlj.adapter.ViewHolder,android.view.View,com.wlj.bean.Base,int,android.view.ViewGroup) -> a
+    android.view.View getListItemview(com.wlj.adapter.ViewHolder,android.view.View,java.lang.Object,int,android.view.ViewGroup) -> a
+com.wlj.chuangbabav2.activity.kefu.KeFu$4 -> com.wlj.chuangbabav2.activity.kefu.h:
+    com.wlj.chuangbabav2.activity.kefu.KeFu this$0 -> a
+    void onItemClick(android.widget.AdapterView,android.view.View,int,long) -> onItemClick
+com.wlj.chuangbabav2.activity.my.ModifyPSW -> com.wlj.chuangbabav2.activity.my.ModifyPSW:
+    void beforeTitle() -> g
+    int setlayout() -> h
+    void initView() -> i
+    void Switch(android.os.Message) -> a
+    void setViewDate(java.lang.Object) -> a
+    void rightOnClick() -> j
+    void liftOnClick() -> k
+    java.lang.Object callWebMethod() -> l
+    void onClick(android.view.View) -> onClick
+com.wlj.chuangbabav2.activity.my.My -> com.wlj.chuangbabav2.activity.my.a:
+    android.widget.ImageView myimageView -> ab
+    android.widget.RelativeLayout persioninfo_rl -> ae
+    android.widget.RelativeLayout shoucang_rl -> af
+    android.widget.RelativeLayout mynews_rl -> ag
+    android.widget.RelativeLayout setup_rl -> ah
+    android.widget.TextView personinfo -> ai
+    android.widget.TextView myshoucang -> aj
+    android.widget.TextView mynews -> ak
+    android.widget.TextView setup -> al
     int getlayout() -> a_
     void initView(android.view.View) -> a
-com.wlj.chuangbabav2.activity.yuyue.YuYue -> com.wlj.chuangbabav2.activity.c.a:
+    void onClick(android.view.View) -> onClick
+    void Switch(android.os.Message) -> a
+    void setViewDate(java.lang.Object) -> a
+    java.lang.Object callWebMethod() -> L
+com.wlj.chuangbabav2.activity.my.MyNews -> com.wlj.chuangbabav2.activity.my.MyNews:
+    void beforeTitle() -> g
+    int setlayout() -> h
+    void initView() -> i
+    void Switch(android.os.Message) -> a
+    void setViewDate(java.lang.Object) -> a
+    void rightOnClick() -> j
+    void liftOnClick() -> k
+    java.lang.Object callWebMethod() -> l
+com.wlj.chuangbabav2.activity.my.PersionInfo -> com.wlj.chuangbabav2.activity.my.PersionInfo:
+    android.widget.TextView name -> n
+    android.widget.TextView phone -> o
+    android.widget.TextView addr -> p
+    android.widget.TextView regtime -> q
+    android.widget.ImageView persionimageView -> r
+    void onCreate(android.os.Bundle) -> onCreate
+    void initView() -> g
+    void setViewDate() -> h
+    void onClick(android.view.View) -> onClick
+com.wlj.chuangbabav2.activity.my.SetUp -> com.wlj.chuangbabav2.activity.my.SetUp:
+    void beforeTitle() -> g
+    int setlayout() -> h
+    void initView() -> i
+    void Switch(android.os.Message) -> a
+    void setViewDate(java.lang.Object) -> a
+    void rightOnClick() -> j
+    void liftOnClick() -> k
+    java.lang.Object callWebMethod() -> l
+    void onClick(android.view.View) -> onClick
+com.wlj.chuangbabav2.activity.my.ShouCang -> com.wlj.chuangbabav2.activity.my.ShouCang:
+    void beforeTitle() -> g
+    int setlayout() -> h
+    void initView() -> i
+    void Switch(android.os.Message) -> a
+    void setViewDate(java.lang.Object) -> a
+    void rightOnClick() -> j
+    void liftOnClick() -> k
+    java.lang.Object callWebMethod() -> l
+com.wlj.chuangbabav2.activity.yuyue.YuYue -> com.wlj.chuangbabav2.activity.a.a:
     android.content.Context mContext -> aa
     android.os.Handler handle2 -> ab
     int oldposition -> ac
@@ -8484,13 +8609,13 @@ com.wlj.chuangbabav2.activity.yuyue.YuYue -> com.wlj.chuangbabav2.activity.c.a:
     void changeFragment(android.support.v4.app.Fragment,int) -> a
     void onActivityResult(int,int,android.content.Intent) -> a
     void tset(com.wlj.chuangbabav2.bean.YuYue) -> a
-com.wlj.chuangbabav2.activity.yuyue.YuYue$1 -> com.wlj.chuangbabav2.activity.c.b:
+com.wlj.chuangbabav2.activity.yuyue.YuYue$1 -> com.wlj.chuangbabav2.activity.a.b:
     com.wlj.chuangbabav2.activity.yuyue.YuYue this$0 -> a
     void handleMessage(android.os.Message) -> handleMessage
-com.wlj.chuangbabav2.activity.yuyue.YuYue$2 -> com.wlj.chuangbabav2.activity.c.c:
+com.wlj.chuangbabav2.activity.yuyue.YuYue$2 -> com.wlj.chuangbabav2.activity.a.c:
     com.wlj.chuangbabav2.activity.yuyue.YuYue this$0 -> a
     void run() -> run
-com.wlj.chuangbabav2.activity.yuyue.YuYue_No -> com.wlj.chuangbabav2.activity.c.d:
+com.wlj.chuangbabav2.activity.yuyue.YuYue_No -> com.wlj.chuangbabav2.activity.a.d:
     android.content.Context mContext -> aa
     android.view.View view -> ab
     android.widget.EditText name -> ah
@@ -8518,13 +8643,13 @@ com.wlj.chuangbabav2.activity.yuyue.YuYue_No -> com.wlj.chuangbabav2.activity.c.
     android.widget.EditText access$1(com.wlj.chuangbabav2.activity.yuyue.YuYue_No) -> b
     android.widget.EditText access$2(com.wlj.chuangbabav2.activity.yuyue.YuYue_No) -> c
     android.widget.EditText access$3(com.wlj.chuangbabav2.activity.yuyue.YuYue_No) -> d
-com.wlj.chuangbabav2.activity.yuyue.YuYue_No$1 -> com.wlj.chuangbabav2.activity.c.e:
+com.wlj.chuangbabav2.activity.yuyue.YuYue_No$1 -> com.wlj.chuangbabav2.activity.a.e:
     com.wlj.chuangbabav2.activity.yuyue.YuYue_No this$0 -> a
     void handleMessage(android.os.Message) -> handleMessage
-com.wlj.chuangbabav2.activity.yuyue.YuYue_No$2 -> com.wlj.chuangbabav2.activity.c.f:
+com.wlj.chuangbabav2.activity.yuyue.YuYue_No$2 -> com.wlj.chuangbabav2.activity.a.f:
     com.wlj.chuangbabav2.activity.yuyue.YuYue_No this$0 -> a
     void run() -> run
-com.wlj.chuangbabav2.activity.yuyue.YuYue_Yes -> com.wlj.chuangbabav2.activity.c.g:
+com.wlj.chuangbabav2.activity.yuyue.YuYue_Yes -> com.wlj.chuangbabav2.activity.a.g:
     android.content.Context mContext -> aa
     android.view.View view -> ab
     android.widget.TextView yuyuContext -> af
@@ -8539,13 +8664,13 @@ com.wlj.chuangbabav2.activity.yuyue.YuYue_Yes -> com.wlj.chuangbabav2.activity.c
     void onClick(android.view.View) -> onClick
     void delYuYue() -> K
     com.wlj.chuangbabav2.bean.YuYue access$0(com.wlj.chuangbabav2.activity.yuyue.YuYue_Yes) -> a
-com.wlj.chuangbabav2.activity.yuyue.YuYue_Yes$1 -> com.wlj.chuangbabav2.activity.c.h:
+com.wlj.chuangbabav2.activity.yuyue.YuYue_Yes$1 -> com.wlj.chuangbabav2.activity.a.h:
     com.wlj.chuangbabav2.activity.yuyue.YuYue_Yes this$0 -> a
     void handleMessage(android.os.Message) -> handleMessage
-com.wlj.chuangbabav2.activity.yuyue.YuYue_Yes$2 -> com.wlj.chuangbabav2.activity.c.i:
+com.wlj.chuangbabav2.activity.yuyue.YuYue_Yes$2 -> com.wlj.chuangbabav2.activity.a.i:
     com.wlj.chuangbabav2.activity.yuyue.YuYue_Yes this$0 -> a
     void run() -> run
-com.wlj.chuangbabav2.activity.yuyue.YuYue_Yes$dsds -> com.wlj.chuangbabav2.activity.c.j:
+com.wlj.chuangbabav2.activity.yuyue.YuYue_Yes$dsds -> com.wlj.chuangbabav2.activity.a.j:
     void tset(com.wlj.chuangbabav2.bean.YuYue) -> a
 com.wlj.chuangbabav2.bean.FenLei -> com.wlj.chuangbabav2.a.a:
     java.lang.String name -> a
@@ -8612,15 +8737,24 @@ com.wlj.chuangbabav2.bean.User -> com.wlj.chuangbabav2.a.d:
     java.lang.String name -> a
     java.lang.String psw -> b
     java.lang.String randCode -> c
-    java.lang.String type -> d
-    java.lang.String getRandCode() -> c
-    void setRandCode(java.lang.String) -> c
-    java.lang.String getType() -> d
-    void setType(java.lang.String) -> d
-    java.lang.String getName() -> e
-    void setName(java.lang.String) -> e
-    java.lang.String getPsw() -> f
-    void setPsw(java.lang.String) -> f
+    java.lang.String phone -> d
+    java.lang.String type -> e
+    java.lang.String addr -> f
+    long regtime -> g
+    java.lang.String pic -> h
+    void setPic(java.lang.String) -> c
+    void setRegtime(long) -> a
+    java.lang.String getAddr() -> c
+    void setAddr(java.lang.String) -> d
+    java.lang.String getRandCode() -> d
+    void setRandCode(java.lang.String) -> e
+    java.lang.String getType() -> e
+    void setType(java.lang.String) -> f
+    java.lang.String getPhone() -> f
+    java.lang.String getName() -> g
+    void setName(java.lang.String) -> g
+    java.lang.String getPsw() -> h
+    void setPsw(java.lang.String) -> h
     com.wlj.bean.Base parse(org.json.JSONObject) -> a
 com.wlj.chuangbabav2.bean.YuYue -> com.wlj.chuangbabav2.a.e:
     java.lang.String yuyuePhone -> a
@@ -8671,6 +8805,8 @@ com.wlj.chuangbabav2.web.RequestWebClient -> com.wlj.chuangbabav2.b.d:
     java.lang.String getLoginRand(java.lang.String) -> a
     org.json.JSONObject request(java.util.Map,java.lang.String,java.lang.String) -> a
     com.wlj.bean.BaseList Request(java.util.Map,com.wlj.bean.Base,java.lang.String,java.lang.String) -> a
+com.wlj.chuangbabav2.widget.MyListView -> com.wlj.chuangbabav2.widget.MyListView:
+    void onMeasure(int,int) -> onMeasure
 com.wlj.chuangbabav2.widget.ScllorTabView -> com.wlj.chuangbabav2.widget.ScllorTabView:
     int mTabNum -> a
     int mCurrentNum -> b
@@ -8699,11 +8835,11 @@ com.wlj.ui.BaseFragmentActivity -> com.wlj.c.b:
     void onDestroy() -> onDestroy
     void onConfigurationChanged(android.content.res.Configuration) -> onConfigurationChanged
 com.wlj.ui.BaseFragmentActivity2 -> com.wlj.c.c:
-    android.content.Intent intent -> n
-    android.widget.TextView left -> o
-    android.widget.TextView title -> p
-    android.widget.TextView right -> q
-    android.os.Handler handle -> r
+    android.content.Intent intent -> o
+    android.widget.TextView left -> p
+    android.widget.TextView title -> q
+    android.widget.TextView right -> r
+    android.os.Handler handle -> s
     void onCreate(android.os.Bundle) -> onCreate
     void beforeTitle() -> g
     void initTitle() -> m

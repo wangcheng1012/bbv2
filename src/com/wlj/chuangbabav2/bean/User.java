@@ -25,6 +25,35 @@ public class User extends Base {
 	 */
 	private String type;
 
+	private String addr;
+
+	private long regtime;
+
+	private String pic;
+
+	public String getPic() {
+		return pic;
+	}
+
+	public void setPic(String pic) {
+		this.pic = pic;
+	}
+
+	public long getRegtime() {
+		return regtime;
+	}
+
+	public void setRegtime(long regtime) {
+		this.regtime = regtime;
+	}
+
+	public String getAddr() {
+		return addr;
+	}
+
+	public void setAddr(String addr) {
+		this.addr = addr;
+	}
 
 	public String getRandCode() {
 		return randCode;
@@ -65,7 +94,8 @@ public class User extends Base {
 	public void setPsw(String psw) {
 		this.psw = psw;
 	}
-//{"state":"2","type":"3","user":{"gongshi":"","phone":"18225315935","idCard":"","jiguan":"","addr":"重庆市九龙坡区滩子口正街101号","daozhang":"0","id":"55ae0a0bd6c45940a7575491","mingzu":"","email":"","yuyue":"0","birthDate":"","hetongcount":"0","realname":"重庆滩子口专卖店","linkman":"梁旭东","picname":"attachFiles\/temp\/55b1d2bad6c459501b581c1b"},"key":"b2215b97aef74969bb35eef7"}
+
+	// {"state":"2","type":"3","user":{"gongshi":"","phone":"18225315935","idCard":"","jiguan":"","addr":"重庆市九龙坡区滩子口正街101号","daozhang":"0","id":"55ae0a0bd6c45940a7575491","mingzu":"","email":"","yuyue":"0","birthDate":"","hetongcount":"0","realname":"重庆滩子口专卖店","linkman":"梁旭东","picname":"attachFiles\/temp\/55b1d2bad6c459501b581c1b"},"key":"b2215b97aef74969bb35eef7"}
 	@Override
 	public Base parse(JSONObject jsonObject) throws JSONException {
 		User user = new User();
@@ -74,7 +104,10 @@ public class User extends Base {
 		user.setName(jsonObject.optString("name"));
 		user.setPsw(jsonObject.optString("password"));
 		user.setRandCode(jsonObject.optString("randCode"));
-
+		user.setPic(jsonObject.optString("pic"));
+		user.setRegtime(jsonObject.optLong("time"));
+		user.setAddr(jsonObject.optString("addr"));
+		
 		return user;
 	}
 

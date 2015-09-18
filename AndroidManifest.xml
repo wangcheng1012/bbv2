@@ -11,7 +11,7 @@
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-    <uses-permission android:name="android.permission.CALL_PHONE"/>  
+    <uses-permission android:name="android.permission.CALL_PHONE" />
 
     <application
         android:name="com.wlj.chuangbabav2.CBBContext"
@@ -36,7 +36,7 @@
         </activity>
         <activity
             android:name="com.wlj.chuangbabav2.activity.PSWLogin"
-            android:screenOrientation="portrait">
+            android:screenOrientation="portrait" >
         </activity>
         <activity
             android:name="com.wlj.chuangbabav2.activity.RandCodeLogin"
@@ -44,27 +44,55 @@
         </activity>
         <activity
             android:name="com.wlj.chuangbabav2.activity.home.menchuang.MenChuangList"
-            android:screenOrientation="portrait">
+            android:screenOrientation="portrait" >
         </activity>
         <activity
             android:name="com.wlj.chuangbabav2.activity.home.menchuang.MenChuangXiangQing"
-            android:screenOrientation="portrait">
+            android:screenOrientation="portrait" >
         </activity>
         <activity
             android:name="com.wlj.chuangbabav2.activity.home.anli.AnLiList"
-            android:screenOrientation="portrait">
+            android:screenOrientation="portrait" >
         </activity>
         <activity
             android:name="com.wlj.chuangbabav2.activity.home.anli.AnLiXiangQing"
             android:screenOrientation="portrait" >
         </activity>
         <activity
-            android:name="com.wlj.chuangbabav2.activity.home.gongyue.GongLueList"
-            android:screenOrientation="portrait">
+            android:name="com.wlj.chuangbabav2.activity.home.gonglue.GongLueList"
+            android:screenOrientation="portrait" >
         </activity>
         <activity
-            android:name="com.wlj.chuangbabav2.activity.home.gongyue.GongLueXiangQing"
-            android:screenOrientation="portrait">
+            android:name="com.wlj.chuangbabav2.activity.home.gonglue.GongLueXiangQing"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.wlj.chuangbabav2.activity.kefu.FuWu"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.wlj.chuangbabav2.activity.kefu.FuWuXiangQing"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.wlj.chuangbabav2.activity.my.MyNews"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.wlj.chuangbabav2.activity.my.PersionInfo"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.wlj.chuangbabav2.activity.my.SetUp"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.wlj.chuangbabav2.activity.my.ShouCang"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.wlj.chuangbabav2.activity.my.ModifyPSW"
+            android:screenOrientation="portrait" >
         </activity>
     </application>
 

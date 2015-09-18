@@ -74,7 +74,7 @@ public class YuYue_No extends Fragment implements OnClickListener, OnItemSelecte
 			Bundle savedInstanceState) {
 		if (null == view) {
 
-			view = inflater.inflate(R.layout.fragment_main_yuyue, null);
+			view = inflater.inflate(R.layout.yuyue, null);
 			name = (EditText)view.findViewById(R.id.name);
 			phone = (EditText)view.findViewById(R.id.phone);
 			shuoming = (EditText)view.findViewById(R.id.shuoming);

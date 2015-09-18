@@ -43,6 +43,17 @@ public class CBBContext extends AppContext {
 		}
 	}
 	
+	public void loginOut() {
+		
+		setProperty(AppConfig.CONF_NAME, "");
+		setProperty(AppConfig.CONF_TYPT, "");
+		setProperty(AppConfig.CONF_KEY, "");
+	}
+	
+	public void checkupdate() {
+		// TODO Auto-generated method stub
+		
+	}
 	/**
 	 * 验证码
 	 * 
@@ -139,4 +150,5 @@ public class CBBContext extends AppContext {
 		}
 		throw new RequestException("网络异常");
 	}
+
 }

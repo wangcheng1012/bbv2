@@ -79,29 +79,29 @@ public class Main extends BaseFragmentActivity   {
 			// 设置Tab按钮的背景
 			// mTabHost.getTabWidget().getChildAt(i).setBackgroundResource(R.drawable.selector_tab_background);
 		}
-//		mTabHost.getTabWidget().getChildAt(1).setOnClickListener(new OnClickListener() {
-//			
-//			@Override
-//			public void onClick(View v) {
-//				if (mTabHost.getCurrentTab() != 1) {//一定要判断这个是为了防止阻碍切换事件  
-//					String key = ((CBBContext)getApplicationContext()).getProperty(AppConfig.CONF_KEY);
-//					if(key == null || "".equals(key) || "null".equals(key)){//这个判断 不能确认，其实没多大用
-//						//登录
-//						Intent intent = new Intent(getApplicationContext(), PSWLogin.class);
-//						intent.putExtra("activityname","com.wlj.chuangbabav2.activity.Main") ;
-//						intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
-//						startActivityForResult(intent, 11);
-//					}else{
-//						
-//						 mTabHost.setCurrentTab(1);  
-//					}
-//                   
-//                }else{  
-//
-//                //做你要做的事情  
-//                  }  				
-//			}
-//		});
+		mTabHost.getTabWidget().getChildAt(1).setOnClickListener(new OnClickListener() {
+			
+			@Override
+			public void onClick(View v) {
+				if (mTabHost.getCurrentTab() != 1) {//一定要判断这个是为了防止阻碍切换事件  
+					String key = ((CBBContext)getApplicationContext()).getProperty(AppConfig.CONF_KEY);
+					if(key == null || "".equals(key) || "null".equals(key)){//这个判断 不能确认，其实没多大用
+						//登录
+						Intent intent = new Intent(getApplicationContext(), PSWLogin.class);
+						intent.putExtra("activityname","com.wlj.chuangbabav2.activity.Main") ;
+						intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+						startActivityForResult(intent, 11);
+					}else{
+						
+						 mTabHost.setCurrentTab(1);  
+					}
+                   
+                }else{  
+
+                //做你要做的事情  
+                  }  				
+			}
+		});
 	}
 
 	/**

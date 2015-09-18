@@ -62,7 +62,7 @@ public class YuYue_Yes extends Fragment implements OnClickListener {
 			Bundle arguments = getArguments();
 			yuyuebean = (YuYue) arguments.getSerializable("base");
 		
-			view = inflater.inflate(R.layout.fragment_main_yuyue_xiangqing, null);
+			view = inflater.inflate(R.layout.yuyue_xiangqing, null);
 			yuyuContext = (TextView)view.findViewById(R.id.yuyuContext);
 			edityuyue = (Button)view.findViewById(R.id.edityuyue);
 			delyuyue = (Button)view.findViewById(R.id.delyuyue);

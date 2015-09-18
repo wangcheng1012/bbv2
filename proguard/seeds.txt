@@ -2905,6 +2905,7 @@ com.wlj.chuangbabav2.R$anim: int abc_slide_in_top
 com.wlj.chuangbabav2.R$anim: int abc_slide_out_bottom
 com.wlj.chuangbabav2.R$anim: int abc_slide_out_top
 com.wlj.chuangbabav2.R$anim: int loading
+com.wlj.chuangbabav2.R$anim: int translate
 com.wlj.chuangbabav2.R$attr: int actionBarDivider
 com.wlj.chuangbabav2.R$attr: int actionBarItemBackground
 com.wlj.chuangbabav2.R$attr: int actionBarPopupTheme
@@ -3381,6 +3382,7 @@ com.wlj.chuangbabav2.R$drawable: int tuila80_tuijian
 com.wlj.chuangbabav2.R$drawable: int tuila80_tuijian_2
 com.wlj.chuangbabav2.R$drawable: int txtborder
 com.wlj.chuangbabav2.R$id: int TextView01
+com.wlj.chuangbabav2.R$id: int TextView02
 com.wlj.chuangbabav2.R$id: int action0
 com.wlj.chuangbabav2.R$id: int action_bar
 com.wlj.chuangbabav2.R$id: int action_bar_activity_content
@@ -3398,6 +3400,7 @@ com.wlj.chuangbabav2.R$id: int action_mode_bar_stub
 com.wlj.chuangbabav2.R$id: int action_mode_close_button
 com.wlj.chuangbabav2.R$id: int action_settings
 com.wlj.chuangbabav2.R$id: int activity_chooser_view_content
+com.wlj.chuangbabav2.R$id: int addr
 com.wlj.chuangbabav2.R$id: int addshoucang
 com.wlj.chuangbabav2.R$id: int alertTitle
 com.wlj.chuangbabav2.R$id: int always
@@ -3405,13 +3408,17 @@ com.wlj.chuangbabav2.R$id: int anli
 com.wlj.chuangbabav2.R$id: int anli_list_pic
 com.wlj.chuangbabav2.R$id: int anlilist_fragment
 com.wlj.chuangbabav2.R$id: int anlisearch
+com.wlj.chuangbabav2.R$id: int back
 com.wlj.chuangbabav2.R$id: int beginning
 com.wlj.chuangbabav2.R$id: int bolicaizhi
 com.wlj.chuangbabav2.R$id: int buttonPanel
+com.wlj.chuangbabav2.R$id: int call1
 com.wlj.chuangbabav2.R$id: int cancel_action
 com.wlj.chuangbabav2.R$id: int cankaomoney
+com.wlj.chuangbabav2.R$id: int canl
 com.wlj.chuangbabav2.R$id: int checkbox
 com.wlj.chuangbabav2.R$id: int chronometer
+com.wlj.chuangbabav2.R$id: int clean
 com.wlj.chuangbabav2.R$id: int collapseActionView
 com.wlj.chuangbabav2.R$id: int colorchoose
 com.wlj.chuangbabav2.R$id: int contentPanel
@@ -3437,6 +3444,8 @@ com.wlj.chuangbabav2.R$id: int expanded_menu
 com.wlj.chuangbabav2.R$id: int fenxiang
 com.wlj.chuangbabav2.R$id: int framelay_center
 com.wlj.chuangbabav2.R$id: int fuwu
+com.wlj.chuangbabav2.R$id: int fuwuandbaozhang
+com.wlj.chuangbabav2.R$id: int fuwuwebview
 com.wlj.chuangbabav2.R$id: int getrandbut
 com.wlj.chuangbabav2.R$id: int glname
 com.wlj.chuangbabav2.R$id: int glshuxing
@@ -3458,7 +3467,11 @@ com.wlj.chuangbabav2.R$id: int home_toplayout
 com.wlj.chuangbabav2.R$id: int icon
 com.wlj.chuangbabav2.R$id: int ifRoom
 com.wlj.chuangbabav2.R$id: int image
+com.wlj.chuangbabav2.R$id: int imageVie
 com.wlj.chuangbabav2.R$id: int imageView1
+com.wlj.chuangbabav2.R$id: int imageView2
+com.wlj.chuangbabav2.R$id: int imageView3
+com.wlj.chuangbabav2.R$id: int imageView4
 com.wlj.chuangbabav2.R$id: int imageview
 com.wlj.chuangbabav2.R$id: int include1
 com.wlj.chuangbabav2.R$id: int include_top_title
@@ -3466,6 +3479,7 @@ com.wlj.chuangbabav2.R$id: int inctop
 com.wlj.chuangbabav2.R$id: int info
 com.wlj.chuangbabav2.R$id: int item_title
 com.wlj.chuangbabav2.R$id: int jiaohao
+com.wlj.chuangbabav2.R$id: int kefubanner
 com.wlj.chuangbabav2.R$id: int layMainBody
 com.wlj.chuangbabav2.R$id: int left
 com.wlj.chuangbabav2.R$id: int line1
@@ -3487,23 +3501,35 @@ com.wlj.chuangbabav2.R$id: int menchuang_list_pic
 com.wlj.chuangbabav2.R$id: int menchuanglist_fragment
 com.wlj.chuangbabav2.R$id: int menchuangsearch
 com.wlj.chuangbabav2.R$id: int middle
+com.wlj.chuangbabav2.R$id: int modifypsw
 com.wlj.chuangbabav2.R$id: int money
 com.wlj.chuangbabav2.R$id: int multiply
+com.wlj.chuangbabav2.R$id: int myimageView
+com.wlj.chuangbabav2.R$id: int mynews
+com.wlj.chuangbabav2.R$id: int mynews_rl
+com.wlj.chuangbabav2.R$id: int myshoucang
 com.wlj.chuangbabav2.R$id: int name
 com.wlj.chuangbabav2.R$id: int name1
 com.wlj.chuangbabav2.R$id: int name2
 com.wlj.chuangbabav2.R$id: int never
 com.wlj.chuangbabav2.R$id: int none
 com.wlj.chuangbabav2.R$id: int normal
+com.wlj.chuangbabav2.R$id: int nulltr
 com.wlj.chuangbabav2.R$id: int onlinyuyue
 com.wlj.chuangbabav2.R$id: int parentPanel
+com.wlj.chuangbabav2.R$id: int persionimageView
+com.wlj.chuangbabav2.R$id: int persioninfo_rl
+com.wlj.chuangbabav2.R$id: int personinfo
 com.wlj.chuangbabav2.R$id: int phone
+com.wlj.chuangbabav2.R$id: int phone400
+com.wlj.chuangbabav2.R$id: int phonelistView
 com.wlj.chuangbabav2.R$id: int progressBar1
 com.wlj.chuangbabav2.R$id: int progress_circular
 com.wlj.chuangbabav2.R$id: int progress_horizontal
 com.wlj.chuangbabav2.R$id: int radio
 com.wlj.chuangbabav2.R$id: int randcode
 com.wlj.chuangbabav2.R$id: int realtabcontent
+com.wlj.chuangbabav2.R$id: int regtime
 com.wlj.chuangbabav2.R$id: int right
 com.wlj.chuangbabav2.R$id: int screen
 com.wlj.chuangbabav2.R$id: int scrollView
@@ -3518,14 +3544,18 @@ com.wlj.chuangbabav2.R$id: int search_plate
 com.wlj.chuangbabav2.R$id: int search_src_text
 com.wlj.chuangbabav2.R$id: int search_voice_btn
 com.wlj.chuangbabav2.R$id: int select_dialog_listview
+com.wlj.chuangbabav2.R$id: int setup
+com.wlj.chuangbabav2.R$id: int setup_rl
 com.wlj.chuangbabav2.R$id: int sheng
 com.wlj.chuangbabav2.R$id: int shi
 com.wlj.chuangbabav2.R$id: int shortcut
+com.wlj.chuangbabav2.R$id: int shoucang_rl
 com.wlj.chuangbabav2.R$id: int showCustom
 com.wlj.chuangbabav2.R$id: int showHome
 com.wlj.chuangbabav2.R$id: int showTitle
 com.wlj.chuangbabav2.R$id: int shuoming
 com.wlj.chuangbabav2.R$id: int soucang
+com.wlj.chuangbabav2.R$id: int space
 com.wlj.chuangbabav2.R$id: int space1
 com.wlj.chuangbabav2.R$id: int space2
 com.wlj.chuangbabav2.R$id: int split_action_bar
@@ -3608,7 +3638,12 @@ com.wlj.chuangbabav2.R$layout: int fragment_main_home2_mc_list
 com.wlj.chuangbabav2.R$layout: int fragment_main_home2_mc_xq
 com.wlj.chuangbabav2.R$layout: int fragment_main_home2_sousuo
 com.wlj.chuangbabav2.R$layout: int fragment_main_kefu
+com.wlj.chuangbabav2.R$layout: int fragment_main_kefu_fuwu
+com.wlj.chuangbabav2.R$layout: int fragment_main_kefu_phone
+com.wlj.chuangbabav2.R$layout: int fragment_main_kefu_xq
 com.wlj.chuangbabav2.R$layout: int fragment_main_my
+com.wlj.chuangbabav2.R$layout: int fragment_main_my_persioninfo
+com.wlj.chuangbabav2.R$layout: int fragment_main_my_setup
 com.wlj.chuangbabav2.R$layout: int fragment_main_yuyue
 com.wlj.chuangbabav2.R$layout: int fragment_main_yuyue_
 com.wlj.chuangbabav2.R$layout: int fragment_main_yuyue_xiangqing
@@ -3617,6 +3652,7 @@ com.wlj.chuangbabav2.R$layout: int item_gonglue_gridview
 com.wlj.chuangbabav2.R$layout: int item_gonglue_list
 com.wlj.chuangbabav2.R$layout: int item_gonglue_listview
 com.wlj.chuangbabav2.R$layout: int item_imageview
+com.wlj.chuangbabav2.R$layout: int item_kefu_phonelist
 com.wlj.chuangbabav2.R$layout: int item_menchuang_list
 com.wlj.chuangbabav2.R$layout: int item_spinner
 com.wlj.chuangbabav2.R$layout: int item_tab_view
@@ -4315,18 +4351,39 @@ com.wlj.chuangbabav2.activity.home.anli.AnLiList_fragment
 com.wlj.chuangbabav2.activity.home.anli.AnLiList_fragment: AnLiList_fragment()
 com.wlj.chuangbabav2.activity.home.anli.AnLiXiangQing
 com.wlj.chuangbabav2.activity.home.anli.AnLiXiangQing: AnLiXiangQing()
-com.wlj.chuangbabav2.activity.home.gongyue.GongLueList
-com.wlj.chuangbabav2.activity.home.gongyue.GongLueList: GongLueList()
-com.wlj.chuangbabav2.activity.home.gongyue.GongLueList_fragment
-com.wlj.chuangbabav2.activity.home.gongyue.GongLueList_fragment: GongLueList_fragment()
-com.wlj.chuangbabav2.activity.home.gongyue.GongLueXiangQing
-com.wlj.chuangbabav2.activity.home.gongyue.GongLueXiangQing: GongLueXiangQing()
+com.wlj.chuangbabav2.activity.home.gonglue.GongLueList
+com.wlj.chuangbabav2.activity.home.gonglue.GongLueList: GongLueList()
+com.wlj.chuangbabav2.activity.home.gonglue.GongLueList_fragment
+com.wlj.chuangbabav2.activity.home.gonglue.GongLueList_fragment: GongLueList_fragment()
+com.wlj.chuangbabav2.activity.home.gonglue.GongLueXiangQing
+com.wlj.chuangbabav2.activity.home.gonglue.GongLueXiangQing: GongLueXiangQing()
 com.wlj.chuangbabav2.activity.home.menchuang.MenChuangList
 com.wlj.chuangbabav2.activity.home.menchuang.MenChuangList: MenChuangList()
 com.wlj.chuangbabav2.activity.home.menchuang.MenChuangList_fragment
 com.wlj.chuangbabav2.activity.home.menchuang.MenChuangList_fragment: MenChuangList_fragment()
 com.wlj.chuangbabav2.activity.home.menchuang.MenChuangXiangQing
 com.wlj.chuangbabav2.activity.home.menchuang.MenChuangXiangQing: MenChuangXiangQing()
+com.wlj.chuangbabav2.activity.kefu.FuWu
+com.wlj.chuangbabav2.activity.kefu.FuWu: FuWu()
+com.wlj.chuangbabav2.activity.kefu.FuWuXiangQing
+com.wlj.chuangbabav2.activity.kefu.FuWuXiangQing: FuWuXiangQing()
+com.wlj.chuangbabav2.activity.my.ModifyPSW
+com.wlj.chuangbabav2.activity.my.ModifyPSW: ModifyPSW()
+com.wlj.chuangbabav2.activity.my.ModifyPSW: void onClick(android.view.View)
+com.wlj.chuangbabav2.activity.my.MyNews
+com.wlj.chuangbabav2.activity.my.MyNews: MyNews()
+com.wlj.chuangbabav2.activity.my.PersionInfo
+com.wlj.chuangbabav2.activity.my.PersionInfo: PersionInfo()
+com.wlj.chuangbabav2.activity.my.PersionInfo: void onClick(android.view.View)
+com.wlj.chuangbabav2.activity.my.SetUp
+com.wlj.chuangbabav2.activity.my.SetUp: SetUp()
+com.wlj.chuangbabav2.activity.my.SetUp: void onClick(android.view.View)
+com.wlj.chuangbabav2.activity.my.ShouCang
+com.wlj.chuangbabav2.activity.my.ShouCang: ShouCang()
+com.wlj.chuangbabav2.widget.MyListView
+com.wlj.chuangbabav2.widget.MyListView: MyListView(android.content.Context)
+com.wlj.chuangbabav2.widget.MyListView: MyListView(android.content.Context,android.util.AttributeSet)
+com.wlj.chuangbabav2.widget.MyListView: MyListView(android.content.Context,android.util.AttributeSet,int)
 com.wlj.chuangbabav2.widget.ScllorTabView
 com.wlj.chuangbabav2.widget.ScllorTabView: ScllorTabView(android.content.Context,android.util.AttributeSet)
 com.wlj.chuangbabav2.widget.ScllorTabView: void setTabNum(int)

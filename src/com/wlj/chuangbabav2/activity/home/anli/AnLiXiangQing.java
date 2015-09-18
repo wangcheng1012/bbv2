@@ -33,7 +33,7 @@ public class AnLiXiangQing extends BaseFragmentActivity2 {
 
 	@Override
 	protected int setlayout() {
-		return R.layout.fragment_main_home2_al_xq;
+		return R.layout.home2_al_xq;
 	}
 
 	@Override

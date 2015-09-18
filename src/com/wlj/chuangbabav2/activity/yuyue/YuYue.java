@@ -63,7 +63,7 @@ public class YuYue extends Fragment implements OnClickListener,dsds {
 			callweb();
 			getActivity().getWindow().setSoftInputMode(WindowManager.LayoutParams.SOFT_INPUT_ADJUST_PAN);
 		Log.e("dd", "YuYue  onCreateView");
-		return inflater.inflate(R.layout.fragment_main_yuyue_, null);
+		return inflater.inflate(R.layout.yuyue_, null);
 	}
 	
 	protected void callweb() {

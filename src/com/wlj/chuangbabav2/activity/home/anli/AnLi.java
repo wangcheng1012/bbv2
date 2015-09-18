@@ -14,9 +14,12 @@ import android.os.Looper;
 import android.os.Message;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.AbsListView;
 import android.widget.AdapterView;
 import android.widget.ImageView;
+import android.widget.AbsListView.LayoutParams;
 import android.widget.AdapterView.OnItemClickListener;
+import android.widget.ImageView.ScaleType;
 
 import com.wlj.adapter.CommonAdapter;
 import com.wlj.adapter.ViewHolder;
@@ -130,6 +133,9 @@ public class AnLi extends BaseRefreshFragment{
 							
 							String picurl = ((Menchuang)base).getPic();
 							imageView.setTag(R.id.tag_first, base);
+							imageView.setAdjustViewBounds(true);
+							imageView.setScaleType(ScaleType.FIT_XY);
+							imageView.setLayoutParams(new AbsListView.LayoutParams(LayoutParams.MATCH_PARENT, LayoutParams.WRAP_CONTENT));
 							LoadImage.getinstall().addTask(URLs.HOST+picurl,imageView );
 							LoadImage.getinstall().doTask();
 							
