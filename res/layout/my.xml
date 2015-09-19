@@ -75,6 +75,18 @@
                 android:layout_marginRight="10dp"
                 android:adjustViewBounds="true"
                 android:src="@drawable/pre" />
+
+            <TextView
+                android:id="@+id/numshoucang"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@+id/imageView2"
+                android:layout_toRightOf="@+id/myshoucang"
+                android:layout_marginRight="20dp"
+                android:gravity="right"
+                android:textColor="@color/hei_515151" />
+
         </RelativeLayout>
 
         <RelativeLayout

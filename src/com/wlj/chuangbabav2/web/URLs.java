@@ -3,7 +3,7 @@ package com.wlj.chuangbabav2.web;
 public class URLs {
 
 	public static final String HOST = "http://121.40.177.251:8910/";
-//	public static final String HOST = "http://192.168.3.120:8080/chuangv2/";
+//	public static final String HOST = "http://192.168.3.150:8080/chuangv2/";
 
 
 	public static final String getPubByFenleiid =HOST+ "baba/getPubByFenleiid.do";
@@ -20,6 +20,11 @@ public class URLs {
 	public static final String getAnliFenleiList = HOST+"baba/getAnliFenleiList.do";
 	public static final String getAnliById = HOST+"baba/getAnliById.do";
 	public static final String getGonglueFenlei = HOST+"baba/getGonglueFenlei.do";
+	public static final String getUserIndexInfo = HOST+"face/userfront/getUserIndexInfo.do";
+	public static final String messageList = HOST+"face/userfront/messageList.do";
+	public static final String getUserInfo =HOST+ "face/userfront/getUserInfo.do";
+	public static final String shoucangList =HOST+ "face/userfront/shoucangList.do";
+	public static final String resetPasswd =HOST+ "face/userfront/resetPasswd.do";
 	
 	
 	
@@ -30,7 +35,6 @@ public class URLs {
 //	public static final String getPubXiangguanByPub =HOST+ "baba/getPubXiangguanByPub.do";
 //	public static final String getCanKaoPrice =HOST+ "baba/getProductPriceByconfig.do";
 //	
-//	public static final String getUserInfo =HOST+ "face/userfront/getUserInfo.do";
 //	public static final String updateUser =HOST+ "face/userfront/updateUser.do";
 //	public static final String uploadHetong = HOST+"face/userfront/uploadHetong.do";
 //	
@@ -52,7 +56,6 @@ public class URLs {
 //	public static final String tiwen = HOST+"face/userfront/tiwen.do";
 //	public static final String tiwenList =HOST+  "face/userfront/tiwenList.do";
 //	public static final String huida =HOST+ " face/userfront/huida.do";
-//	public static final String shoucangList =HOST+ "face/userfront/shoucangList.do";
 //	public static final String shoucang_remove =HOST+ "face/userfront/shoucang_quxiao.do";
 //	
 //	public static final String indexCity =HOST+ "baba/indexCity.do";

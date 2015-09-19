@@ -12,6 +12,7 @@ import android.view.Window;
 import android.widget.TextView;
 
 import com.wlj.R;
+import com.wlj.chuangbabav2.activity.PSWLogin;
 import com.wlj.ui.BaseFragment;
 import com.wlj.ui.BaseFragmentActivity;
 import com.wlj.util.AppContext;
@@ -40,6 +41,13 @@ public abstract class MyBaseFragment extends BaseFragment {
 				Exception e = (Exception)msg.obj;
 				UIHelper.ToastMessage(getActivity(), e.getMessage());
 				UIHelper.loadingClose();
+				
+				if("登录信息过期,请重新登录!".equals(e.getMessage())){
+					Intent intent = new Intent(mContext, PSWLogin.class);
+					intent.putExtra("activityname","com.wlj.chuangbabav2.activity.Main") ;
+					intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+					startActivityForResult(intent, 11);
+				}
 				break;
 			default:
 				Switch(msg);

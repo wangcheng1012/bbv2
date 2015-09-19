@@ -76,6 +76,7 @@ public class Loading extends BaseFragmentActivity{
 					fl3.addView(fl1,layoutParams);
 					addLiJiTiYan(fl3);
 					mScrollLayout.addView(fl3);
+					
 				}else{
 					ImageView fl1 = new ImageView(getApplicationContext());
 					
@@ -92,6 +93,7 @@ public class Loading extends BaseFragmentActivity{
 	private void GoToMain() {
 		
 		Intent intent = new Intent(getApplicationContext(), Main.class);
+		intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
 		startActivity(intent);
 		finish();
 	}

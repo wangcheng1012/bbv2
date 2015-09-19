@@ -1,15 +1,25 @@
 package com.wlj.chuangbabav2.activity.my;
 
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
 import android.content.Intent;
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.os.Message;
 
+import com.wlj.bean.Base;
+import com.wlj.bean.BaseList;
+import com.wlj.chuangbabav2.CBBContext;
 import com.wlj.chuangbabav2.R;
 import com.wlj.chuangbabav2.activity.home.dataTransmission;
+import com.wlj.chuangbabav2.bean.Menchuang;
+import com.wlj.chuangbabav2.bean.User;
+import com.wlj.chuangbabav2.web.URLs;
 import com.wlj.ui.BaseFragmentActivity2;
 
-public class ShouCang extends BaseFragmentActivity2 implements dataTransmission {
+public class ShouCang extends BaseFragmentActivity2 {
 
 	@Override
 	protected void beforeTitle() {
@@ -39,8 +49,6 @@ public class ShouCang extends BaseFragmentActivity2 implements dataTransmission 
 
 	@Override
 	protected void setViewDate(Object obj) {
-		// TODO Auto-generated method stub
-
 	}
 
 	@Override
@@ -56,16 +64,7 @@ public class ShouCang extends BaseFragmentActivity2 implements dataTransmission 
 
 	@Override
 	protected Object callWebMethod() throws Exception {
-		// TODO Auto-generated method stub
 		return null;
-	}
-
-	@Override
-	public Bundle transmissionName() {
-		Bundle bundle = new Bundle();
-		bundle.putString("fenleiid", "");
-		bundle.putString("name", "");
-		return bundle;
 	}
 
 }

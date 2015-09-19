@@ -75,7 +75,7 @@
             android:screenOrientation="portrait" >
         </activity>
         <activity
-            android:name="com.wlj.chuangbabav2.activity.my.MyNews"
+            android:name="com.wlj.chuangbabav2.activity.my.news.MyNews"
             android:screenOrientation="portrait" >
         </activity>
         <activity
@@ -83,7 +83,7 @@
             android:screenOrientation="portrait" >
         </activity>
         <activity
-            android:name="com.wlj.chuangbabav2.activity.my.SetUp"
+            android:name="com.wlj.chuangbabav2.activity.my.set.SetUp"
             android:screenOrientation="portrait" >
         </activity>
         <activity
@@ -91,7 +91,7 @@
             android:screenOrientation="portrait" >
         </activity>
         <activity
-            android:name="com.wlj.chuangbabav2.activity.my.ModifyPSW"
+            android:name="com.wlj.chuangbabav2.activity.my.set.ModifyPSW"
             android:screenOrientation="portrait" >
         </activity>
     </application>

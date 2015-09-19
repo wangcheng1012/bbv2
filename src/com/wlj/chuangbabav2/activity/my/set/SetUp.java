@@ -1,4 +1,4 @@
-package com.wlj.chuangbabav2.activity.my;
+package com.wlj.chuangbabav2.activity.my.set;
 
 import android.content.Intent;
 import android.graphics.drawable.Drawable;
@@ -8,7 +8,11 @@ import android.view.View.OnClickListener;
 
 import com.wlj.chuangbabav2.CBBContext;
 import com.wlj.chuangbabav2.R;
+import com.wlj.chuangbabav2.activity.Loading;
+import com.wlj.chuangbabav2.activity.Main;
 import com.wlj.ui.BaseFragmentActivity2;
+import com.wlj.util.UIHelper;
+import com.wlj.util.img.ImageFileCache;
 
 public class SetUp extends BaseFragmentActivity2 implements OnClickListener {
 
@@ -79,18 +83,24 @@ public class SetUp extends BaseFragmentActivity2 implements OnClickListener {
 			startActivity(intent2);
 			break;
 		case R.id.clean:
-			mContext.clearAppCache();
+			ImageFileCache imageFileCache = new ImageFileCache();
+			UIHelper.ToastMessage(mContext, imageFileCache.removeAllCache());
 			break;
 		case R.id.update:
 			mContext.setConfigCheckUp(true);
 			break;
 		case R.id.loadingpageset:
-			mContext.setConfigLoadimage(true);
+			
+			Intent intent_loading = new Intent(mContext, Loading.class);
+			intent_loading.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+			startActivity(intent_loading);
 			break;
 		case R.id.exitapp:
 			mContext.loginOut();
+			Intent intent = new Intent(mContext, Main.class);
+			intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+			startActivity(intent);
 			break;
-
 		}
 	}
 

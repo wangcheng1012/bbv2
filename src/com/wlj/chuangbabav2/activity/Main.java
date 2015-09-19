@@ -102,6 +102,30 @@ public class Main extends BaseFragmentActivity   {
                   }  				
 			}
 		});
+		mTabHost.getTabWidget().getChildAt(3).setOnClickListener(new OnClickListener() {
+			
+			@Override
+			public void onClick(View v) {
+				if (mTabHost.getCurrentTab() != 3) {//一定要判断这个是为了防止阻碍切换事件  
+					String key = ((CBBContext)getApplicationContext()).getProperty(AppConfig.CONF_KEY);
+					if(key == null || "".equals(key) || "null".equals(key)){//这个判断 不能确认，其实没多大用
+						//登录
+						Intent intent = new Intent(getApplicationContext(), PSWLogin.class);
+						intent.putExtra("activityname","com.wlj.chuangbabav2.activity.Main") ;
+						intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+						startActivityForResult(intent, 33);
+					}else{
+						
+						mTabHost.setCurrentTab(3);  
+					}
+					
+				}else{  
+					
+					//做你要做的事情  
+				}  				
+			}
+		});
+		
 	}
 
 	/**
@@ -133,7 +157,17 @@ public class Main extends BaseFragmentActivity   {
 			}
 			
 		}
-		
+		if(arg0 == 33){
+			//去登录
+			if(arg1 == 22){
+				//失败或者返回  就什么都不做
+				
+			}else if(arg1 == 55){
+				//成功
+				mTabHost.setCurrentTab(3);
+			}
+			
+		}
 	}
 
 }
